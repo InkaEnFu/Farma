@@ -43,7 +43,8 @@ public abstract class Flower {
                 ", price=" + price +
                 ", neededArea=" + neededArea +
                 ", chanceOfGrowth=" + chanceOfGrowth +
+                ", needWater=" + needWater +
+                ", watered=" + watered +
                 '}';
     }
-
 }
