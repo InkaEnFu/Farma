@@ -33,7 +33,7 @@ public class Farmar {
             obsazenyPozemek += flower.neededArea;
             System.out.println(flower.getName() + "Planted");
         } else {
-            System.out.println("Nelze zasadit");
+            System.out.println("Can not be planted");
 
         }
     }
