@@ -20,7 +20,12 @@ public class Farmar {
             }
         }
     }
-
+    public void harvestFlowers() {
+        for (Flower flower : flowers) {
+        }
+    }
 }
+
+
 
 
