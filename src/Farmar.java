@@ -21,11 +21,14 @@ public class Farmar {
             if (flower.needWater) {
                 System.out.println("Watering " + flower.name + ".");
                 flower.setWatered(true);
+                double newGrothChance = flower.getChanceOfGrowth() + 0.1;
+                flower.setChanceOfGrowth(newGrothChance);
             } else {
                 System.out.println(flower.name + " no need to water anymore");
             }
         }
     }
+
 
     public void harvestFlowers(Flower flower) {
         if (flowers.size() < MAX_ROSTLINY && (obsazenyPozemek + flower.neededArea) <= MAX_POZEMEK) {
@@ -38,6 +41,7 @@ public class Farmar {
         }
     }
 }
+
 
 
 
